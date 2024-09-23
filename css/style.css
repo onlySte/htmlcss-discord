@@ -20,7 +20,7 @@
 }
 
 .debug footer {
-    height: 350px;
+    height: 374px;
 }
 
 /* Header */
@@ -196,7 +196,7 @@ footer {
 
 
 .line {
-    border: 1px solid #9e9e9e;
+    border: 1px solid rgb(52, 52, 252);
     min-width: 100%;
     margin: auto;
     margin-top: 38px;
@@ -231,23 +231,23 @@ footer {
 }
 
 .primo-footer .large-col {
-    background-color: pink;
+    /* background-color: pink; */
     width: 30%;
     min-height: 240px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .primo-footer .small-col {
     width: 70%;
     display: flex;
     min-height: 240px;
-    background-color: aqua;
-    border: 1px solid black;
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
 }
 
 .primo-footer .square-cyan {
     width: 25%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .secondo-footer {
@@ -259,7 +259,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     line-height: 30px;
     min-width: 100%;
 }
@@ -269,6 +269,14 @@ footer {
     background-color: pink;
 }
 
+.secondo-footer .footer-bottone {
+    background-color: rgb(106, 106, 246);
+    color: white;
+    border: none;
+    border-radius: 13px;
+    padding: 4px;
+    cursor: pointer;
+}
 
 
 /* sezione riempimento Main */
@@ -320,4 +328,18 @@ footer .large-col>img {
 footer .large-col>span {
     font-size: 12px;
     color: white;
+}
+
+footer .small-col div {
+    color: white;
+    font-size: 15px;
+}
+
+footer .small-col .blue {
+    color: rgb(52, 52, 252);
+
+}
+
+footer .line-square {
+    line-height: 24px;
 }
