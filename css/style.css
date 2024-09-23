@@ -20,14 +20,16 @@
 }
 
 .debug footer {
-    height: 374px;
+    height: 395px;
 }
 
 /* Header */
 
 .debug .header {
-    background-color: #a6e3ff;
+    /* background-color: #a6e3ff; */
     padding: 20px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .header>.container {
@@ -42,35 +44,75 @@
 } */
 
 .logo-header {
-    border: 1px solid black;
-    width: 20%;
-    background-color: yellow;
+    /* border: 1px solid black; */
+    /* width: 20%; */
+
 }
 
 .lista-header {
     list-style-type: none;
     flex-grow: 1;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
-    background-color: yellow;
+    color: white;
 }
 
 .link-item {
     display: inline-block;
-    margin: 0 5px 0 5px;
+    margin: 0 15px 0 15px;
 
 }
 
 .login-header {
-    border: 1px solid black;
-    width: 20%;
+    /* width: 20%; */
     text-align: right;
-    background-color: yellow;
+    padding: 4px;
+    border-radius: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+header>.section-1>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-1 h1,
+p {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.button-mac {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button-discord {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.padre-mac-discord {
+    text-align: center;
+    margin-top: 5px;
 }
 
 /* Main */
-
 
 
 .main>section>.container {
@@ -80,7 +122,7 @@
 }
 
 .section-1 {
-    background-color: blue;
+    /* background-color: blue; */
 
 }
 
@@ -104,7 +146,7 @@
 /* figli section main */
 
 .single-col {
-    background-color: rgb(255, 137, 157);
+    /* background-color: rgb(255, 137, 157); */
     height: 200px;
     min-width: 800px;
 }
@@ -112,13 +154,11 @@
 .section-2 .col-big {
     height: 200px;
     width: 70%;
-    /* background-color: rgb(16, 195, 255); */
 }
 
 .section-2 .col-small {
     min-height: 200px;
     width: 30%;
-    /* background-color: pink; */
     padding: 5px;
     margin-right: 110px;
 }
@@ -126,7 +166,6 @@
 .section-3 .col-small {
     height: 200px;
     width: 30%;
-    /* background-color: pink; */
     padding: 5px 0 0 10px;
     margin-left: 110px;
 
@@ -136,20 +175,17 @@
 .section-3 .col-big {
     height: 200px;
     width: 70%;
-    /* background-color: rgb(16, 195, 255); */
 
 }
 
 .section-4 .col-big {
     height: 200px;
     width: 70%;
-    /* background-color: rgb(16, 195, 255); */
 }
 
 .section-4 .col-small {
     height: 200px;
     width: 30%;
-    /* background-color: pink; */
     margin-right: 110px;
 }
 
@@ -157,7 +193,15 @@
     height: 450px;
     min-width: 100%;
     text-align: center;
-    /* background-color: green; */
+}
+
+.main p {
+    color: black;
+    text-align: start;
+}
+
+.green-col>p {
+    text-align: center;
 }
 
 /* Footer */
@@ -231,23 +275,18 @@ footer {
 }
 
 .primo-footer .large-col {
-    /* background-color: pink; */
     width: 30%;
     min-height: 240px;
-    /* border: 1px solid black; */
 }
 
 .primo-footer .small-col {
     width: 70%;
     display: flex;
     min-height: 240px;
-    /* background-color: aqua; */
-    /* border: 1px solid black; */
 }
 
 .primo-footer .square-cyan {
     width: 25%;
-    /* border: 1px solid white; */
 }
 
 .secondo-footer {
@@ -259,15 +298,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: aquamarine; */
     line-height: 30px;
     min-width: 100%;
 }
 
-.footer-logo,
-.footer-bottone {
-    background-color: pink;
-}
+
 
 .secondo-footer .footer-bottone {
     background-color: rgb(106, 106, 246);
