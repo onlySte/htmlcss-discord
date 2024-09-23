@@ -90,7 +90,7 @@
 }
 
 .section-3 {
-    background-color: gray;
+    background-color: rgb(193, 191, 191);
 }
 
 .section-4 {
@@ -98,8 +98,7 @@
 }
 
 .section-5 {
-    background-color: gray;
-
+    background-color: rgb(193, 191, 191);
 }
 
 /* figli section main */
@@ -113,46 +112,52 @@
 .section-2 .col-big {
     height: 200px;
     width: 70%;
-    background-color: rgb(16, 195, 255);
+    /* background-color: rgb(16, 195, 255); */
 }
 
 .section-2 .col-small {
     min-height: 200px;
     width: 30%;
-    background-color: pink;
+    /* background-color: pink; */
     padding: 5px;
+    margin-right: 110px;
 }
 
 .section-3 .col-small {
     height: 200px;
     width: 30%;
-    background-color: pink;
+    /* background-color: pink; */
+    padding: 5px 0 0 10px;
+    margin-left: 110px;
+
 }
 
 
 .section-3 .col-big {
     height: 200px;
     width: 70%;
-    background-color: rgb(16, 195, 255);
+    /* background-color: rgb(16, 195, 255); */
 
 }
 
 .section-4 .col-big {
     height: 200px;
     width: 70%;
-    background-color: rgb(16, 195, 255);
+    /* background-color: rgb(16, 195, 255); */
 }
 
 .section-4 .col-small {
     height: 200px;
     width: 30%;
-    background-color: pink;
+    /* background-color: pink; */
+    margin-right: 110px;
 }
 
 .green-col {
     height: 450px;
     min-width: 100%;
-    background-color: green;
+    text-align: center;
+    /* background-color: green; */
 }
 
 /* Footer */
@@ -264,12 +269,11 @@ footer {
     background-color: pink;
 }
 
-/* .section-2 .col-big {
-    background-image: url(../img/item1.svg);
-    background-size: cover;
-} */
 
-.section-2 .container {
+
+/* sezione riempimento Main */
+
+.section .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,4 +286,38 @@ img {
 
 .section-2 .col-small>p {
     margin-top: 10px;
+}
+
+
+.section-3 .col-small>p {
+    margin-top: 10px;
+}
+
+
+.section-4 .col-small>p {
+    margin-top: 10px;
+}
+
+
+
+.green-col>p {
+    margin-top: 10px;
+}
+
+/* sezione riempimento footer */
+
+footer h3 {
+    color: rgb(52, 52, 252);
+    padding: 10px;
+}
+
+footer .large-col>img {
+    height: 10px;
+    width: 15px;
+    margin-left: 10px;
+}
+
+footer .large-col>span {
+    font-size: 12px;
+    color: white;
 }
